@@ -1,18 +1,39 @@
-/* Configurando o bory  padrão
-*/
+/*Configurando variaveis*/
 :root{
     --vermelho:#E50915;
     --preta:#141414;
 }
+/* Configurando o todos os elementos 
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
+/* configurando o bory padrão*/
 body {
     background: var(--preta);
     font-family:'Times New Roman', Times, serif;
 }
+/*Configurando Hearder Container*/
 
+header .container{
+    display: ;
+}
+
+/*Configurando o logo Netflix*/
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Ariel Black';
+    font-size: 40px;
+}
+/*Configurando links da Nav*/
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover {
+    color: #fff;
+}
