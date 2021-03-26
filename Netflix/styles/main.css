@@ -19,11 +19,15 @@ body {
 /*Configurando Hearder Container*/
 
 header .container{
-    display: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /*Configurando o logo Netflix*/
 header .logo{
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Ariel Black';
     font-size: 40px;
